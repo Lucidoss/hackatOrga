@@ -43,11 +43,7 @@
             this.btn_accueil.Size = new System.Drawing.Size(96, 35);
             this.btn_accueil.TabIndex = 0;
             this.btn_accueil.Text = "Accueil";
-<<<<<<< HEAD
-            this.btn_accueil.UseVisualStyleBackColor = true;
-=======
-            this.btn_accueil.UseVisualStyleBackColor = false;
->>>>>>> daee4c1df7e38243feb6d02f2d5d2ad458909219
+
             this.btn_accueil.Click += new System.EventHandler(this.btn_accueil_Click);
             // 
             // pictureBox1

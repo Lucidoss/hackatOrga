@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using HackatOrga.Models;
+
 namespace HackatOrga
 {
     internal static class Program
@@ -8,6 +11,10 @@ namespace HackatOrga
         [STAThread]
         static void Main()
         {
+            //connexion à la BD
+            hackatonsContext cnx = new hackatonsContext();
+
+
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
