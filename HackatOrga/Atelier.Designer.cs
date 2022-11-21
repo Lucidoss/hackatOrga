@@ -37,7 +37,7 @@
             this.btn_accueil.Name = "btn_accueil";
             this.btn_accueil.Size = new System.Drawing.Size(75, 23);
             this.btn_accueil.TabIndex = 0;
-            this.btn_accueil.Text = "button1";
+            this.btn_accueil.Text = "Accueil";
             this.btn_accueil.UseVisualStyleBackColor = true;
             this.btn_accueil.Click += new System.EventHandler(this.btn_accueil_Click);
             // 
