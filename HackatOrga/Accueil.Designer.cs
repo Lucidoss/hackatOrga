@@ -53,6 +53,7 @@
             this.lbl_accueil.Size = new System.Drawing.Size(289, 113);
             this.lbl_accueil.TabIndex = 0;
             this.lbl_accueil.Text = "Accueil";
+            this.lbl_accueil.Click += new System.EventHandler(this.lbl_accueil_Click);
             // 
             // btn_conferences
             // 
@@ -61,7 +62,7 @@
             this.btn_conferences.Name = "btn_conferences";
             this.btn_conferences.Size = new System.Drawing.Size(246, 78);
             this.btn_conferences.TabIndex = 3;
-            this.btn_conferences.Text = "Acceder aux conférences";
+            this.btn_conferences.Text = "Accéder aux conférences";
             this.btn_conferences.UseVisualStyleBackColor = true;
             // 
             // btn_hackathons
@@ -71,8 +72,9 @@
             this.btn_hackathons.Name = "btn_hackathons";
             this.btn_hackathons.Size = new System.Drawing.Size(246, 78);
             this.btn_hackathons.TabIndex = 4;
-            this.btn_hackathons.Text = "Acceder aux hackathons";
+            this.btn_hackathons.Text = "Accéder aux hackathons";
             this.btn_hackathons.UseVisualStyleBackColor = true;
+            this.btn_hackathons.Click += new System.EventHandler(this.btn_hackathons_Click);
             // 
             // btn_atelier
             // 
@@ -85,17 +87,17 @@
             this.btn_atelier.Name = "btn_atelier";
             this.btn_atelier.Size = new System.Drawing.Size(246, 78);
             this.btn_atelier.TabIndex = 5;
-            this.btn_atelier.Text = "Acceder aux Atelier";
+            this.btn_atelier.Text = "Accéder aux Atelier";
             this.btn_atelier.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // Accueil
             // 
             this.ClientSize = new System.Drawing.Size(1040, 622);
             this.Controls.Add(this.btn_atelier);
             this.Controls.Add(this.btn_hackathons);
             this.Controls.Add(this.btn_conferences);
             this.Controls.Add(this.lbl_accueil);
-            this.Name = "Form1";
+            this.Name = "Accueil";
             this.ResumeLayout(false);
             this.PerformLayout();
 
