@@ -28,12 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Atelier";
+            this.btn_accueil = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btn_accueil
+            // 
+            this.btn_accueil.Location = new System.Drawing.Point(0, 0);
+            this.btn_accueil.Name = "btn_accueil";
+            this.btn_accueil.Size = new System.Drawing.Size(75, 23);
+            this.btn_accueil.TabIndex = 0;
+            this.btn_accueil.Text = "button1";
+            this.btn_accueil.UseVisualStyleBackColor = true;
+            this.btn_accueil.Click += new System.EventHandler(this.btn_accueil_Click);
+            // 
+            // Atelier
+            // 
+            this.ClientSize = new System.Drawing.Size(723, 551);
+            this.Controls.Add(this.btn_accueil);
+            this.Name = "Atelier";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Button btn_accueil;
     }
 }

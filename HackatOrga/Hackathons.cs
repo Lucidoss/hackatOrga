@@ -16,5 +16,13 @@ namespace HackatOrga
         {
             InitializeComponent();
         }
+
+        private void btn_accueil_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Accueil f = new Accueil();
+            f.Closed += (s, args) => this.Close();
+            f.Show();
+        }
     }
 }

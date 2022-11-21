@@ -64,6 +64,7 @@
             this.btn_conferences.TabIndex = 3;
             this.btn_conferences.Text = "Accéder aux conférences";
             this.btn_conferences.UseVisualStyleBackColor = true;
+            this.btn_conferences.Click += new System.EventHandler(this.btn_conferences_Click);
             // 
             // btn_hackathons
             // 
@@ -89,6 +90,7 @@
             this.btn_atelier.TabIndex = 5;
             this.btn_atelier.Text = "Accéder aux Atelier";
             this.btn_atelier.UseVisualStyleBackColor = false;
+            this.btn_atelier.Click += new System.EventHandler(this.btn_atelier_Click);
             // 
             // Accueil
             // 
