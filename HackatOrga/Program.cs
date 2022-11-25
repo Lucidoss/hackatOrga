@@ -14,6 +14,7 @@ namespace HackatOrga
             //connexion à la BD
             hackatonsContext cnx = new hackatonsContext();
 
+            ICollection<Hackathon> FrenchCustomer = cnx.Hackathons.ToList();
 
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
